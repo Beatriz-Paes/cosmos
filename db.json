@@ -1,0 +1,43 @@
+{
+  "bg": "https://i1.wp.com/www.deviante.com.br/wp-content/uploads/2016/02/pilares-criacao1.jpg?fit=1500%2C1000",
+  "title": "Cosmos",
+  "description": "Teste os seus conhecimentos sobre o universo",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Como fazer um seletor por id via CSS?",
+      "description": "Essa é pra aquecer",
+      "answer": 2,
+      "alternatives": [
+        ".elemento",
+        "*elemento",
+        "#elemento",
+        "%elemento"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Como fazer um background gradiente com css?",
+      "description": "Faz tempo em haha",
+      "answer": 0,
+      "alternatives": [
+         "background: linear-gradient(#e66465, #9198e5);",
+         "background: gradient(#e66465, #9198e5);"
+      ]
+    }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#A3565E",
+      "secondary": "#732725",
+      "mainBg": "#2B1C16",
+      "contrastText": "#B4DDFA",
+      "wrong": "#847FF5",
+      "success": "#B4DDFA"
+    },
+    "borderRadius": "4px"
+  }
+}
