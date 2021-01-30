@@ -1,19 +1,18 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React from 'react';
+// import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
 import QuizContainer from '../src/components/QuizContainer';
-
-import db from '../db.json';
 import Widget from '../src/components/Widget';
-
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+
+import db from '../db.json';
 
 // const BackgroundImage = styled.div`
 // background-image: url(${db.bg});
@@ -33,9 +32,7 @@ export default function Home() {
         </title>
       </Head>
       <QuizContainer>
-        <QuizLogo
-          src="https://files.slack.com/files-pri/TPZ0YSCNM-F01LD0D2G3V/asset_1.png"
-        />
+        <QuizLogo />
         <Widget>
           <Widget.Header>
             <h1>O quanto você conhece sobre o Universo</h1>

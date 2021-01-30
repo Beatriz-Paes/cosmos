@@ -13,7 +13,6 @@ const Quizlogo = styled.img`
 
 export default function QuizLogo() {
   return (
-    <Quizlogo src="https://files.slack.com/files-pri/TPZ0YSCNM-F01LD0D2G3V/asset_1.png" alt="Quiz Logo" />
-
+    <Quizlogo src="https://cdn.discordapp.com/attachments/805150073192316978/805152810923589642/Asset_1.png"/>
   );
 }
