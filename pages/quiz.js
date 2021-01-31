@@ -6,6 +6,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import Button from '../src/components/Button';
+import GitHubCorner from '../src/components/GitHubCorner';
 
 function LoadingWidget() {
   return (
@@ -46,6 +47,7 @@ function QuestionWidget({
         }}
         src={question.image}
       />
+
       <Widget.Content>
         <h2>
           {question.title}
@@ -140,6 +142,7 @@ export default function QuizPage() {
 
         {screenState === screenStates.RESULT && <div>Você acertou X questões, parabéns!</div>}
       </QuizContainer>
+      <GitHubCorner />
     </QuizBackground>
   );
 }

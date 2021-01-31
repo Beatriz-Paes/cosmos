@@ -59,18 +59,18 @@ export default function Home() {
 
         <Widget>
           <Widget.Header>
-            <h1>O quanto você conhece sobre o Universo</h1>
+            <h1>Envie sua pergunta para o banco de questões, basta preencher os campos abaixo:</h1>
           </Widget.Header>
 
           <Widget.Content>
-            <p>Bora começar!</p>
+            <p>Cadê os campos</p>
           </Widget.Content>
         </Widget>
 
         <Footer />
       </QuizContainer>
 
-      <GitHubCorner projectUrl="https://github.com/Beatriz-Paes" />
+      <GitHubCorner />
     </QuizBackground>
 
   );

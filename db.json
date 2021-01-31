@@ -4,25 +4,27 @@
   "description": "Teste os seus conhecimentos sobre o universo",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://instagram.fpll4-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/143846362_1715118211999468_1644393454907384247_n.jpg?_nc_ht=instagram.fpll4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=OW9hRXzzNS8AX99ZBLa&tp=1&oh=f92b48c71ea9ac62b57f2c8ce7727d71&oe=60412134",
+      "title": "Vamos mergulhar no coração de Messier 81, apelidada de Galáxia de Bode, uma galáxia espiral impressionante localizada a cerca de 12 milhões de anos-luz do Sistema Solar em direção à:",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Constelação de Ursa Maior",
+        "Constelação de Escorpião",
+        "Constelação de Ursa Menor",
+        "Constelação de Orion"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://apod.nasa.gov/apod/image/2012/EagleNebula_Paladini_960.jpg",
+      "title": "Uma nebulosa parecida com uma lula muito tênue, mas muito grande, é visível no céu do planeta Terra - mas dentro de um morcego ainda maior. A Nebulosa de Lula Gigante catalogada como Ou4 e Sh2-129 também conhecida como:",
+      "description": "Easy, easy",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Nebulosa da Lula e o Morcego",
+         "Nebulosa Helix",
+         "Nebulosa do Morcego Voador",
+         "Nebulosa Tarântula"
       ]
     }
   ],
@@ -31,12 +33,13 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#A3565E",
+      "primary": "#442C6B",
       "secondary": "#732725",
       "mainBg": "#2B1C16",
-      "contrastText": "#B4DDFA",
+      "contrastText": "#B4DDFB",
       "wrong": "#847FF5",
-      "success": "#B4DDFA"
+      "success": "#B4DDFA",
+      "alternative": "rgb(49, 28, 31, 0.5)"
     },
     "borderRadius": "4px"
   }

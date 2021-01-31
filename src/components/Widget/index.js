@@ -4,7 +4,9 @@ const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
-  background-color: ${({ theme }) => theme.colors.mainBg};
+  background-color: ${({ theme }) => theme.colors.alternative};
+
+
   border-radius: 4px;
   overflow: hidden;
   h1, h2, h3 {
@@ -44,13 +46,21 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  h2 {
+    text-align: justify;
+  }
+  object {
+    width: 425;
+    height: 344;
+    
+  }
 `;
 
 Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  background-color: ${({ theme }) => `${theme.colors.primary}80`};
   padding: 10px 15px;
   margin-bottom: 8px;
   cursor: pointer;
